@@ -14,7 +14,6 @@
 		FA864DBF1DCE266100FAAD61 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA864DBD1DCE266100FAAD61 /* DoIt.xcdatamodeld */; };
 		FA864DC11DCE266100FAAD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA864DC01DCE266100FAAD61 /* Assets.xcassets */; };
 		FA864DC41DCE266100FAAD61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA864DC21DCE266100FAAD61 /* LaunchScreen.storyboard */; };
-		FA864DCC1DCE367A00FAAD61 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA864DCB1DCE367A00FAAD61 /* task.swift */; };
 		FA864DCE1DCE46AD00FAAD61 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA864DCD1DCE46AD00FAAD61 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		FA864DC01DCE266100FAAD61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA864DC31DCE266100FAAD61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA864DC51DCE266100FAAD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA864DCB1DCE367A00FAAD61 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 		FA864DCD1DCE46AD00FAAD61 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 				FA1ED5431DD011A800BE6780 /* CompleteTaskViewController.swift */,
 				FA864DCD1DCE46AD00FAAD61 /* CreateTaskViewController.swift */,
 				FA864DBA1DCE266100FAAD61 /* Main.storyboard */,
-				FA864DCB1DCE367A00FAAD61 /* task.swift */,
 				FA864DC01DCE266100FAAD61 /* Assets.xcassets */,
 				FA864DC21DCE266100FAAD61 /* LaunchScreen.storyboard */,
 				FA864DC51DCE266100FAAD61 /* Info.plist */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA864DCC1DCE367A00FAAD61 /* task.swift in Sources */,
 				FA864DBF1DCE266100FAAD61 /* DoIt.xcdatamodeld in Sources */,
 				FA1ED5441DD011A800BE6780 /* CompleteTaskViewController.swift in Sources */,
 				FA864DB91DCE266100FAAD61 /* TasksViewController.swift in Sources */,

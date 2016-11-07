@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -123,7 +124,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uw-yr-DEY">
-                                <frame key="frameInset" minX="77" minY="144" width="221" height="199"/>
+                                <frame key="frameInset" minX="77" minY="145" width="221" height="199"/>
                                 <state key="normal" title="Complete"/>
                                 <connections>
                                     <action selector="completeTapped:" destination="Kbt-yF-eSU" eventType="touchUpInside" id="WID-CF-TGm"/>
@@ -138,6 +139,7 @@
                             <constraint firstItem="4uw-yr-DEY" firstAttribute="centerX" secondItem="fCK-cE-g6l" secondAttribute="centerX" id="aNw-gZ-LBX"/>
                             <constraint firstItem="aWI-aR-iVW" firstAttribute="centerX" secondItem="fCK-cE-g6l" secondAttribute="centerX" id="dTR-hr-HME"/>
                             <constraint firstItem="4uw-yr-DEY" firstAttribute="centerX" secondItem="aWI-aR-iVW" secondAttribute="centerX" id="eiM-H3-CpK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4uw-yr-DEY" secondAttribute="trailing" constant="68" id="rtE-lC-kXR"/>
                             <constraint firstItem="1Oc-ov-XJ5" firstAttribute="top" secondItem="4uw-yr-DEY" secondAttribute="bottom" constant="329" id="wqa-l0-dE7"/>
                         </constraints>
                     </view>
